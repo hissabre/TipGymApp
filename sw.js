@@ -1,5 +1,5 @@
 // TIP offline support: serve the app from cache, refresh it in the background.
-const CACHE = 'tip-v2';
+const CACHE = 'tip-v3';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png', 'icons/favicon.svg'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));

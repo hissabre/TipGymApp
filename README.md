@@ -23,3 +23,7 @@ Upload the new `index.html` over the old one. To make phones pick it up right aw
 ## Your data
 
 Workouts are saved in the phone's browser storage. Use **Settings → Export backup** now and then, and keep the file somewhere safe. Deleting the home-screen app or clearing Safari data erases it.
+
+## Progress photos
+
+Photos are stored on your phone only (in the app's private storage). They are never uploaded and are not part of the backup file. The live camera with the alignment guide works in the installed app; if your browser blocks the camera, TIP opens your phone's camera app instead.
